@@ -1,0 +1,1 @@
+{"tokens_in": 14819, "tool_calls": 4, "schema_tokens": 2352, "schema_how": "counted on the wire", "tool_names": ["lookup_booking", "get_flight_status", "search_alternatives", "check_policy", "hold_seat", "confirm_rebooking", "issue_voucher", "escalate_to_human", "send_confirmation", "next_available_day"]}

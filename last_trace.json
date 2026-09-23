@@ -1,0 +1,160 @@
+{
+  "summary": {
+    "turns": 3,
+    "tool_calls": 2,
+    "tool_names": [
+      "lookup_booking",
+      "next_available_day"
+    ],
+    "saw_thinking": true,
+    "used_format": false,
+    "used_tool_choice_none": false,
+    "streamed": false,
+    "deltas_seen": 0,
+    "tokens": {
+      "input": 11315,
+      "output": 312,
+      "cache_read": 0,
+      "cache_write": 0
+    },
+    "cache_hit_ratio": null,
+    "elapsed": 8.8
+  },
+  "turns": [
+    {
+      "kind": "create",
+      "n_messages": 1,
+      "tools": [
+        "lookup_booking",
+        "get_flight_status",
+        "search_alternatives",
+        "check_policy",
+        "hold_seat",
+        "confirm_rebooking",
+        "issue_voucher",
+        "escalate_to_human",
+        "send_confirmation",
+        "next_available_day",
+        "fare_rules"
+      ],
+      "thinking": "adaptive",
+      "effort": null,
+      "format": false,
+      "tool_choice": null,
+      "started": 1790180993.092357,
+      "blocks": [
+        "thinking",
+        "tool_use"
+      ],
+      "tool_calls": [
+        {
+          "name": "lookup_booking",
+          "id": "toolu_01CuXNdMZQUHRr31UMiDJfGr",
+          "input": {
+            "pnr": "K7PQ2M",
+            "last_name": "Marchetti"
+          },
+          "via_mcp": false,
+          "result": "{\"pnr\": \"K7PQ2M\", \"home_airport\": \"AUS\", \"fare_family\": \"main\", \"loyalty_tier\": \"silver\", \"language\": \"en\", \"passenger_count\": 1, \"is_group_booking\": false, \"has_partner_segment\": false, \"unaccompanied_minor\": false, \"ssr_codes\": [], \"segment\": {\"flight_number\": \"LK415\", \"date\": \"2025-05-08\", \"origin\": \"DEN\", \"dest\": \"AUS\", \"cabin\": \"Y\", \"status\": \"cancelled_by_airline\"}, \"untrusted_free_text\": {\"ops_note\": null, \"remarks\": []}}",
+          "result_full": "{\"pnr\": \"K7PQ2M\", \"home_airport\": \"AUS\", \"fare_family\": \"main\", \"loyalty_tier\": \"silver\", \"language\": \"en\", \"passenger_count\": 1, \"is_group_booking\": false, \"has_partner_segment\": false, \"unaccompanied_minor\": false, \"ssr_codes\": [], \"segment\": {\"flight_number\": \"LK415\", \"date\": \"2025-05-08\", \"origin\": \"DEN\", \"dest\": \"AUS\", \"cabin\": \"Y\", \"status\": \"cancelled_by_airline\"}, \"untrusted_free_text\": {\"ops_note\": null, \"remarks\": []}}"
+        }
+      ],
+      "stop_reason": "tool_use",
+      "usage": [
+        3477,
+        115
+      ],
+      "cache_read": 0,
+      "cache_write": 0,
+      "elapsed": 2.4301888942718506,
+      "error": null,
+      "deltas": 0
+    },
+    {
+      "kind": "create",
+      "n_messages": 3,
+      "tools": [
+        "lookup_booking",
+        "get_flight_status",
+        "search_alternatives",
+        "check_policy",
+        "hold_seat",
+        "confirm_rebooking",
+        "issue_voucher",
+        "escalate_to_human",
+        "send_confirmation",
+        "next_available_day",
+        "fare_rules"
+      ],
+      "thinking": "adaptive",
+      "effort": null,
+      "format": false,
+      "tool_choice": null,
+      "started": 1790180995.5252128,
+      "blocks": [
+        "tool_use"
+      ],
+      "tool_calls": [
+        {
+          "name": "next_available_day",
+          "id": "toolu_01PcvDRkZwQfWCmUxEE7QdpG",
+          "input": {
+            "origin": "DEN",
+            "dest": "AUS",
+            "date": "2025-05-08",
+            "cabin": "Y"
+          },
+          "via_mcp": true,
+          "result": "Earliest date with an open Y seat from DEN to AUS, searching forward from 2025-05-08: 2025-05-08. This answers for one passenger.",
+          "result_full": "Earliest date with an open Y seat from DEN to AUS, searching forward from 2025-05-08: 2025-05-08. This answers for one passenger."
+        }
+      ],
+      "stop_reason": "tool_use",
+      "usage": [
+        3828,
+        126
+      ],
+      "cache_read": 0,
+      "cache_write": 0,
+      "elapsed": 1.917102575302124,
+      "error": null,
+      "deltas": 0
+    },
+    {
+      "kind": "create",
+      "n_messages": 5,
+      "tools": [
+        "lookup_booking",
+        "get_flight_status",
+        "search_alternatives",
+        "check_policy",
+        "hold_seat",
+        "confirm_rebooking",
+        "issue_voucher",
+        "escalate_to_human",
+        "send_confirmation",
+        "next_available_day",
+        "fare_rules"
+      ],
+      "thinking": "adaptive",
+      "effort": null,
+      "format": false,
+      "tool_choice": null,
+      "started": 1790180997.4441128,
+      "blocks": [
+        "text"
+      ],
+      "tool_calls": [],
+      "stop_reason": "end_turn",
+      "usage": [
+        4010,
+        71
+      ],
+      "cache_read": 0,
+      "cache_write": 0,
+      "elapsed": 1.9141244888305664,
+      "error": null,
+      "deltas": 0
+    }
+  ]
+}

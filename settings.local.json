@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\verify.py\")",
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\verify.py\" 1.2)",
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\verify.py\" 1.2 --name \"Aaron John\")",
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\verify.py\" 1.3 --name \"Aaron John\")",
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\run.py\" --all --trace)",
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\verify.py\" 1.4 --name \"Aaron John\")",
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\run.py\" --show-tools)",
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\run.py\" K7PQ2M --trace --message \"When is the first day I can actually fly?\")",
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\pod_sync.py\" --status)",
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\setup.py\" --no-live)",
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\verify.py\" 2.2 --name \"Aaron John\")",
+      "PowerShell(Copy-Item \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\evals\\\\cases.example.json\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\evals\\\\cases.json\")",
+      "PowerShell(& \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\.venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\aajohn\\\\Downloads\\\\larkspur-exercise-main\\\\bench.py\" --label before --runs 3)"
+    ]
+  }
+}

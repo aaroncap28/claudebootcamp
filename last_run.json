@@ -1,0 +1,83 @@
+{
+  "generated": "2026-09-22T14:09:24",
+  "shapes": [
+    {
+      "pnr": "K7PQ2M",
+      "shape": "Clean cancellation",
+      "turns": 4,
+      "tool_calls": 3,
+      "tokens_in": 13158,
+      "tokens_out": 654,
+      "cache_read": 0,
+      "stop_reason": "end_turn",
+      "elapsed": 11.8,
+      "resolved": true,
+      "error": null
+    },
+    {
+      "pnr": "M3XR8T",
+      "shape": "Delay under threshold",
+      "turns": 4,
+      "tool_calls": 3,
+      "tokens_in": 13090,
+      "tokens_out": 655,
+      "cache_read": 0,
+      "stop_reason": "end_turn",
+      "elapsed": 11.1,
+      "resolved": true,
+      "error": null
+    },
+    {
+      "pnr": "T9WN4C",
+      "shape": "Ambiguous missed connection",
+      "turns": 4,
+      "tool_calls": 3,
+      "tokens_in": 13077,
+      "tokens_out": 699,
+      "cache_read": 0,
+      "stop_reason": "end_turn",
+      "elapsed": 12.1,
+      "resolved": true,
+      "error": null
+    },
+    {
+      "pnr": "G2HL9V",
+      "shape": "Out-of-scope group",
+      "turns": 3,
+      "tool_calls": 2,
+      "tokens_in": 9373,
+      "tokens_out": 601,
+      "cache_read": 0,
+      "stop_reason": "end_turn",
+      "elapsed": 8.5,
+      "resolved": true,
+      "error": null
+    },
+    {
+      "pnr": "R8KD3F",
+      "shape": "Abusive message",
+      "turns": 4,
+      "tool_calls": 3,
+      "tokens_in": 13091,
+      "tokens_out": 659,
+      "cache_read": 0,
+      "stop_reason": "end_turn",
+      "elapsed": 9.5,
+      "resolved": true,
+      "error": null
+    }
+  ],
+  "totals": {
+    "attempted": 5,
+    "shapes": 5,
+    "failed": 0,
+    "resolved": 5,
+    "turns": 19,
+    "tool_calls": 14,
+    "tokens_in": 61789,
+    "tokens_out": 3268,
+    "cache_read": 0,
+    "unfinished": [],
+    "errors": []
+  }
+}
